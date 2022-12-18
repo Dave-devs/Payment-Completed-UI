@@ -46,8 +46,9 @@ fun Payment() {
                 .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Spacer(modifier = Modifier.height(16.dp))
             SuccessRow()
-            Spacer(modifier = Modifier.height(120.dp))
+            Spacer(modifier = Modifier.height(130.dp))
             Image(
                 painter = painterResource(id = R.drawable.payment_icon),
                 contentDescription = null,
@@ -82,7 +83,7 @@ fun Payment() {
                 textAlign = TextAlign.Center,
                 color = Color.Blue
             )
-            Spacer(modifier = Modifier.height(200.dp))
+            Spacer(modifier = Modifier.height(230.dp))
             ButtonComposable()
         }
     }
